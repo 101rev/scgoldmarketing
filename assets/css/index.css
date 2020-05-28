@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #232742;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 0;
+    align-items: center;
+}
+.logo{
+    width: 106px;
+}
+.nav-link{
+    color: #a9b5d8;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.8px;
+    margin-right: 36px;
+}
+.btn{
+    background-color: #1754fa;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+.nav-link:hover{
+    color: #ffffff;
+}
+.company-advantage{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.company-advantage>span{
+    position: relative;
+    display: flex;
+    padding-left: 40px;
+}
+.company-advantage>span:before{
+    position: absolute;
+    left: 0;
+    top: 7px;
+    content: "";
+    width: 20px;
+    height: 14px;
+    background: url("../images/Arrow_Right.png");
+}
+.buttons-container{
+    margin: 60px 0;
+}
+.page-title{
+    margin: 170px 0 35px 0;
+    max-width: 540px;
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 72px;
+}
+.text-main{
+    max-width: 510px;
+    color: #a9b5d8;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.4px;
+}
+.page-btn{
+    padding: 17px 42px;
+    font-size: 18px;
+}
+.btn-empty{
+    padding: 13px 38px;
+    color: #a2aed0;
+    background: none;
+    border: 2px solid #a2aed0;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 15px;
+}
+.top-text-content{
+    width: 45%;
+}
+.top-page-content{
+    display: flex;
+    justify-content: space-between;
+}
+.top-image-content{
+    width: 45%;
+    position: relative;
+}
+.top-image-container{
+    position: absolute;
+    width: 865px;
+    bottom: -120px;
+    left: -250px;
+}
+.top-image-content img{
+    position: absolute;
+    bottom: 0;
+    right: -10px;
+}
