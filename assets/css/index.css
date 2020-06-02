@@ -64,12 +64,13 @@ img{
     margin: 60px 0;
 }
 .page-title{
-    margin: 170px 0 35px 0;
+    padding: 170px 0 35px 0;
     max-width: 540px;
     color: #ffffff;
     font-size: 60px;
     font-weight: 400;
     line-height: 72px;
+    margin: 0;
 }
 .text-main{
     max-width: 510px;
@@ -364,7 +365,8 @@ img{
     font-size: 48px;
     font-weight: 400;
     line-height: 72px;
-    margin: 280px 0 38px 0;
+    padding: 280px 0 38px 0;
+    margin: 0;
 }
 .portfolio-block{
     max-width: 1920px;
@@ -627,4 +629,172 @@ input:focus{
     color: #ffffff;
     font-weight: 500;
     font-size: 20px;
+}
+.pre-footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 280px;
+}
+.pre-footer-logo{
+    width: 106px;
+}
+.pre-footer-logo img{
+    width: 100%;
+}
+.pre-footer-column{
+    display: flex;
+    flex-direction: column;
+}
+.pre-footer-column h3{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 1px;
+    margin: 0 0 48px 0;
+}
+.pre-footer-column a{
+    opacity: 0.7;
+    color: #a9b5d8;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.14px;
+}
+.social-icons{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.social-icons .social-icon{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-icon.twitter{
+    background: rgba(0, 175, 233, 0.1);
+}
+.social-icon.fb{
+    background: rgba(37, 72, 135, 0.1)
+}
+.social-icon.linkedin{
+    background: rgba(50, 154, 209, 0.1)
+}
+.social-icon.rss{
+    background: rgba(250, 85, 0, 0.1)
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding-bottom: 60px;
+}
+footer span, footer a{
+    opacity: 0.7;
+    color: #a9b5d8;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 30px;
+}
+footer .copyright{
+    max-width: 240px;
+}
+section{
+    position: relative;
+}
+.special-services-block, .top-page-content, .exp-team-block, .portfolio-block,
+.achivment-block, .slider-block, .partners-block, .pre-footer, footer{
+    position: relative;
+    z-index: 10;
+}
+.achive-items, .feedback-slider, .partners-logos, .footer-container{
+    z-index: 12;
+    position: relative;
+}
+.background-image-1, .background-3, .background-4, .background-5, .background-2, .background-6,
+.slider-bkg-1, .slider-bkg-2, .slider-bkg-3, .slider-bkg-4, .background-7, .background-8, .background-circle-1,
+.background-9, .background-10, .background-11{
+    position: absolute;
+}
+.background-image-1{
+    width: 244px;
+    right: 0;
+    top: 225px;
+}
+.background-2{
+    width: 550px;
+    left: 0;
+    top: -200px;
+}
+.background-3{
+    top: 100px;
+    right: 0;
+}
+.background-4{
+    bottom: 50px;
+    left: 0;
+}
+.background-5{
+    top: 0;
+    right: 0;
+}
+.background-6{
+    top: 100px;
+    left: 50px;
+}
+.slider-bkg-1{
+    top: -60px;
+    left: -70px;
+}
+.slider-bkg-2{
+    top: 120px;
+    right: -70px;
+}
+.slider-bkg-3{
+    bottom: 25px;
+    left: -70px;
+}
+.slider-bkg-4{
+    bottom: -85px;
+    right: -10px;
+}
+.background-7{
+    top: -140px;
+    left: 50px;
+}
+.background-8{
+    bottom: -360px;
+    right: 0px;
+}
+.background-circle-1{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #00d463;
+    bottom: -10px;
+    left: 240px;
+}
+.background-9{
+    top: -60px;
+    left: 125px;
+}
+.background-10{
+    bottom: 0;
+    right: 155px;
+}
+.background-11{
+    bottom: 0;
+    left: 115px;
+}
+header{
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    background: #232742;
+}
+main{
+    padding-top: 110px;
 }
