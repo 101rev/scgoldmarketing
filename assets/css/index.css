@@ -1077,8 +1077,28 @@ main{
 @media (max-width: 420px) {
     .portfolio-item{
         width: 320px;
+        height: 440px;
     }
     .exp-team-btn{
         font-size: 18px;
     }
+    .exp-team-btn{
+        padding: 22px 90px;
+    }
+    .all-serv-btn{
+        width: 320px;
+    }
+    .feedback-slider{
+        width: 320px;
+    }
+    .feedback-slide{
+        padding: 30px 20px 20px 20px;
+    }
+    .input-name input, .input-email input, .sign-up-btn {
+        width: 230px;
+    }
+    .sign-up-btn {
+        margin-top: 10px;
+    }
+
 }
