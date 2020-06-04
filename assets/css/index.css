@@ -1067,7 +1067,13 @@ main{
         width: 80px;
     }
 }
-
+@media (max-width: 600px) {
+    .page-title, .exp-team-text h2, .special-services-title, .portfolio-title, .achive-title,
+    .customer-feedback-title, .special-services-title {
+        font-size: 38px;
+        line-height: 52px;
+    }
+}
 @media (max-width: 420px) {
     .portfolio-item{
         width: 320px;
