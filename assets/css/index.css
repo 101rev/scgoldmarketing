@@ -853,21 +853,33 @@ main{
     transform-origin: 15% 95%;
 }
 .mobile-menu{
-    width: 100%;
+    /*width: 100%;*/
     display: flex;
     flex-direction: column;
-    padding: 15px;
-    align-items: center;
+    padding: 30px 30px 120% 30px;
+    align-items: flex-start;
 }
 .mobile-menu a{
-    margin-top: 10px;
+    margin-top: 30px;
     margin-right: 0;
+}
+.mobile-menu .btn{
+    margin-top: 60px;
 }
 .mobile-close-menu{
     display: none;
 }
 .burger{
     display: none;
+}
+.btn:hover{
+    background-color: #00A8FF;
+}
+.sign-up-btn:hover{
+    background: #00A8FF;
+}
+.btn-empty:hover{
+    color: #ffffff;
 }
 @media (max-width: 1919px) {
     .portfolio-items{
