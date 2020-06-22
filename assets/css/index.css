@@ -637,6 +637,8 @@ input:focus{
 }
 .pre-footer-logo{
     width: 106px;
+    height: max-content;
+    margin-top: -15px;
 }
 .pre-footer-logo img{
     width: 100%;
@@ -778,7 +780,7 @@ section{
     left: 240px;
 }
 .background-9{
-    top: -60px;
+    top: -130px;
     left: 125px;
 }
 .background-10{
