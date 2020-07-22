@@ -9,7 +9,7 @@ $(document).ready(function() {
             url: "mail.php", //Change
             data: th.serialize()
         }).done(function() {
-            // alert("Спасибо! Ваша Заявка была успешно отправлена. Скоро наш сотрудник свяжется с Вами!");
+            // alert("");
             setTimeout(function() {
                 // Done Functions
                 th.trigger("reset");
