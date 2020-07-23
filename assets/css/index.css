@@ -592,6 +592,9 @@ img{
     text-transform: uppercase;
     cursor: pointer;
 }
+.sent-message-block{
+    padding-top: 100px;
+}
 .send-message-btn:hover{
     background: #00A8FF;
 }
