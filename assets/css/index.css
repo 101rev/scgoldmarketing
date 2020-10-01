@@ -20,7 +20,7 @@ img{
     align-items: center;
 }
 .logo{
-    width: 106px;
+    width: 125px;
 }
 .nav-link{
     color: #a9b5d8;
@@ -142,7 +142,7 @@ img{
 .exp-team-block{
     display: flex;
     justify-content: space-between;
-    margin-top: 510px;
+    margin-top: 310px;
 }
 .services-items{
     display: flex;
@@ -155,7 +155,7 @@ img{
     font-weight: 400;
     line-height: 72px;
     text-align: center;
-    margin-top: 275px;
+    margin-top: 150px;
 }
 .special-services-block .text-main{
     text-align: center;
@@ -358,7 +358,7 @@ img{
     margin: 45px 0;
 }
 .achivment-block{
-    margin-top: 275px;
+    margin-top: 150px;
 }
 .portfolio-title{
     color: #ffffff;
@@ -464,7 +464,7 @@ img{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 340px;
+    margin-top: 200px;
 }
 .feedback-slide{
     padding: 50px 20px 50px 50px;
@@ -540,7 +540,7 @@ img{
     margin-bottom: 32px;
 }
 .newslatter-block{
-    margin-top: 320px;
+    margin-top: 170px;
 }
 .newslatter-title{
     color: #ffffff;
@@ -884,14 +884,14 @@ main{
     display: flex;
     flex-direction: column;
     padding: 30px 30px 120% 30px;
-    align-items: flex-start;
+    align-items: center;
 }
 .mobile-menu a{
     margin-top: 30px;
     margin-right: 0;
 }
 .mobile-menu .btn{
-    margin-top: 60px;
+    margin-top: 45px;
 }
 .mobile-close-menu{
     display: none;
@@ -916,6 +916,38 @@ main{
 .sent-message-form div{
     margin-bottom: 20px;
 }
+
+#thanks-message{
+    position: fixed;
+    top: 110px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1011;
+    width: 200px;
+    height: 120px;
+    /*display: flex;*/
+    /*flex-direction: ;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    padding: 15px;
+    color: #ffffff;
+    background: #00a8ff;
+    border-radius: 10px;
+    display: none;
+}
+#close-btn{
+    background: #0081f5;
+    font-weight: bold;
+    width: 80px;
+    height: 40px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
 @media (max-width: 1919px) {
     .portfolio-items{
         max-width: fit-content;
@@ -1069,7 +1101,10 @@ main{
         align-items: center;
     }
     .page-title{
-        padding-top: 100px;
+        padding-top: 50px;
+    }
+    .company-advantage{
+        margin-top: 30px;
     }
     .background-3 {
         top: 15px;
@@ -1115,6 +1150,9 @@ main{
     }
 }
 @media (max-width: 600px) {
+    .background-8, .background-3{
+        display: none;
+    }
     .page-title, .exp-team-text h2, .special-services-title, .portfolio-title, .achive-title,
     .customer-feedback-title, .special-services-title {
         font-size: 38px;

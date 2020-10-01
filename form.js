@@ -13,6 +13,7 @@ $(document).ready(function() {
             setTimeout(function() {
                 // Done Functions
                 th.trigger("reset");
+                $("#thanks-message").show()
             }, 1000);
         });
         return false;
